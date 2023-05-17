@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nl.sogyo.mancala.domain.TestBowl" time="0.136" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain\target\test-classes;C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain\target\classes;C:\Users\sogyo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\sogyo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sogyo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\sogyo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sogyo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\sogyo\AppData\Local\Temp\surefire1163618526732460312\surefirebooter3492991823735693091.jar C:\Users\sogyo\AppData\Local\Temp\surefire1163618526732460312 2023-05-11T16-39-50_740-jvmRun1 surefire5719744996962864622tmp surefire_08482411498277771258tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain\target\test-classes;C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain\target\classes;C:\Users\sogyo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\sogyo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sogyo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\sogyo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sogyo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sogyo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sogyo\AppData\Local\Temp\surefire1163618526732460312\surefirebooter3492991823735693091.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="sogyo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sogyo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sogyo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\sogyo\Documents\Testomgeving\MancalaRemoteRepo\mancala-java-jelle\Mancala\domain"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\sogyo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sogyo\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Gradle\gradle-8.1.1\bin;C:\Users\sogyo\AppData\Local\Microsoft\WindowsApps;C:\Users\sogyo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sogyo\Downloads\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGameEndsWhenAllBowlsEmpty" classname="nl.sogyo.mancala.domain.TestBowl" time="0.027"/>
+  <testcase name="testBowlEmptiesWhenPlayed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testPlayedBowlContainsStoneWhen14OrMorePassed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testGameEmptiesAllBowlsWhenLastMoveSteals" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testTurnEndsWhenAllStonesAreRedistributed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testStealingWorksForOpponent" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testOpponentsBowlCanNotBePlayed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.005"/>
+  <testcase name="testOppositeOfStealEmptiesWhenStealing" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testGameDoesNotEndWhenOpponentCanStillMoveAndHasTurn" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testBowlOpponentEmptiesWhenPlayed" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testTurnOpponentEndsWhenAllStonesAreRedistributed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testStealingDoesNotWorkIfEndInBowlOpponent" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testNeighboursOfPlayedBowlGetOneStone(int)[1]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.023"/>
+  <testcase name="testNeighboursOfPlayedBowlGetOneStone(int)[2]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testNeighboursOfPlayedBowlGetOneStone(int)[3]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testNeighboursOfPlayedBowlGetOneStone(int)[4]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="test0StonesPassedDoesNotAddStonesToContainer" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testEndInEmptyContainerSteals" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testGameDoesNotEndWhenTurnPlayerCanStillMove" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testBowlsPassStonesWhenGameEnds" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testEmptyBowlCanNotBePlayed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testStealingWorksWhenOppositeBowlIsEmpty" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testNeighboursOfPlayedBowlOpponentGetOneStone(int)[1]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testNeighboursOfPlayedBowlOpponentGetOneStone(int)[2]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testNeighboursOfPlayedBowlOpponentGetOneStone(int)[3]" classname="nl.sogyo.mancala.domain.TestBowl" time="0"/>
+  <testcase name="testNeighboursOfPlayedBowlOpponentGetOneStone(int)[4]" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+  <testcase name="testPlayedBowlStealsWhen13StonesPassed" classname="nl.sogyo.mancala.domain.TestBowl" time="0.001"/>
+</testsuite>

@@ -1,0 +1,7 @@
+nl\sogyo\mancala\domain\Container.class
+nl\sogyo\mancala\domain\exceptions\invalidBowlException.class
+nl\sogyo\mancala\domain\Bowl.class
+nl\sogyo\mancala\domain\exceptions\gameEndedInDrawException.class
+nl\sogyo\mancala\domain\exceptions\notYourTurnException.class
+nl\sogyo\mancala\domain\Kalaha.class
+nl\sogyo\mancala\domain\Player.class
